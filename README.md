@@ -1,2 +1,4 @@
-# GoogleAD-Seria2-DemoApp
-Demo application for the Google Ateliarul Digital programming courses.
+# Google Atelierul Digital Demo App
+Demo application for the Google Atelierul Digital programming courses.
+
+
