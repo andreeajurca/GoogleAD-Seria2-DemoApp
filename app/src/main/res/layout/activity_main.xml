@@ -21,32 +21,57 @@
         android:layout_marginBottom="48dp"
         android:textSize="24sp"/>
 
-    <EditText
-        android:layout_width="260dp"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Username"
+        android:orientation="horizontal"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        />
+        android:layout_marginStart="8dp">
 
-    <EditText
-        android:layout_width="260dp"
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/user"
+            android:layout_marginEnd="8dp"/>
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Password"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="8dp">
 
-        android:inputType="textPassword"
-        />
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/key"
+            android:layout_marginEnd="8dp"/>
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            />
+
+    </LinearLayout>
 
     <Button
         android:layout_width="196dp"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginTop="64dp"
         android:text="Login"/>
 
 </LinearLayout>
